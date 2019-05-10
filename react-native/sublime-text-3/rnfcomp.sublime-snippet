@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+	const ${1:App}  = () => {
+			return (
+				<View style={{flex:1, alignItems: 'center', justifyContent: 'center'}}>
+					<Text>${1:this}</Text>
+				</View>
+			);
+	}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>rnfcomp</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+</snippet>
