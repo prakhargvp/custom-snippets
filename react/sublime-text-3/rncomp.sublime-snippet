@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+	class ${1:App} extends Component {
+		render(){
+			return (
+				<View style={{flex:1, alignItems: 'center', justifyContent: 'center'}}>
+					<Text>${1:this}</Text>
+				</View>
+			);
+		}
+	}
+]]></content>
+	<tabTrigger>rncomp</tabTrigger>
+</snippet>
